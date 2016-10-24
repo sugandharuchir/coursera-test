@@ -9,19 +9,32 @@
 	h1{margin-bottom:15px;}
 	p{border: 1px solid black;
 		margin-bottom: 15px;padding:10px;}
-	div{background color:#A52A2A;
+	div{
+		background color:#A52A2A;
+		position: relative;
 	}
 	#p1{background-color: gray;
 		width:70px;
 		height:60px;
-		float: right top}
+		position: absolute;
+		top:0;
+		right:0;}
 		#p2{background-color: #DEB887;
 			width:70px;
-			height: 60px;float: right top}
+			height: 60px;
+			position: absolute;
+			top:0;
+			right:0;}
 			#p3{background-color: white;
 				width: 70px;
-				height: 60px;}
+				height: 60px;
+				position: absolute;
+				top:0;
+				right:0;}
 				#content{font-style: arial;}
+				.row{
+					width: 100%
+					}
 				@media(min-width: 992px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
 					{float=right; border:1px solid blue;}
 				.col-lg-1{width: 8.33%;}
@@ -72,8 +85,10 @@
 </head>
 <body>
 <h1>Hello Coursera! It's a cool course! Indeed.</h1>          menu
+<div class="row">
 <div class="col-lg-4 col-md-6 col-sm-12"><p id="p1" id="content">hey!</p></div>
 <div class="col-lg-4 col-md-6 col-sm-12"><p id="p2" id="content">first time</p></div>
 <div class="col-lg-4 col-md-12 col-sm-12"><p id="p3" id="content">panick prevails</p></div>
+</div>
 </body>
 </html>
