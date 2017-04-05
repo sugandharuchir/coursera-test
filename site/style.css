@@ -23,7 +23,7 @@ body{
   button.navbar-toggle, span.icon-bar{
 	border: 1px solid  #880E4F;
 }
-#nav-list a span{
+#nav-list a .visible-xs{
 	text-align: center;
 	background-color: #EEFF41;
 }
