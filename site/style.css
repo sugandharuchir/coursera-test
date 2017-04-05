@@ -35,11 +35,12 @@ div #tile{
 	width=100%;
 	margin-bottom:10px;
 	background-color: #E1BEE7;
-	top:0; 
+	top:0;
+	text-align:center;  
 }
-   #tile span{
-	text-align: center;
-}
+   
+	
+
 #content {
 	position: absolute;
 	padding: 5px;
