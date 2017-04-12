@@ -27,8 +27,8 @@ body{
 	text-align: center;
 	background-color: #EEFF41;
 }
-h2{text-align: center;
-text-transform:uppercase; }
+/*/text-align: center;*/
+h2{text-transform:uppercase; }
  
 div #tile{
 	position: relative;
